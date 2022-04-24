@@ -1,0 +1,14 @@
+enable_uart=1
+dtparam=spi=on
+dtoverlay=waveshare35a:rotate=180,swapxy=1
+hdmi_group=2
+hdmi_mode=1
+hdmi_mode=87
+hdmi_cvt 480 320 60 6 0 0 0
+hdmi_drive=2
+display_rotate=2
+
+
+#### Touch Display rotation setting below: do not alter ####
+display_lcd_rotate=1
+display_hdmi_rotate=1
